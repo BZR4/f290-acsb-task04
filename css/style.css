@@ -98,6 +98,11 @@ article {
     box-shadow: 0px 0px 4px 1px rgba(144, 144, 145, 0.6);
 }
 
+article header {
+    font-size: 1.6em;
+    font-weight: 900;
+}
+
 .autor {
     color: #767297;
     border-left: 8px solid #E5306F;
