@@ -3,36 +3,52 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: Sanchez;
+    src: url(../fonts/Sanchez-Regular.ttf);
+}
+
+:root {
+    /*  BRACKGROUND */
+    --cor-card-fundo-escuro: #17141D;
+    --cor-body-fundo-escuro: #100E17;
+    --cor-fundo-claro: #F5F5F5;
+
+    --cor-accent: #E5306F;
+}
+
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: Sanchez;
     font-size: 1em;
-    background-color: #100E17;
+    background-color: var(--cor-fundo-claro);
 }
 
 main {
     width: 720px;
-    margin: 30px auto;
-    padding: 10px;
+    margin: 0 auto;
+    margin-top: 80px;
 }
 
 nav {
-    background-color: #100E17;
+    background-color: #FFFFFF;
     position: fixed;
     top: 0;
     width: 100%;
-    border-bottom: 1px solid #767297;
+    border-bottom: 1px solid #767297;    
 }
 
 .conteudo-menu {
-    background-color: blueviolet;
     width: 720px;
     margin: 0 auto;
 }
 
 .logo {
+    font-family: 'Anton', sans-serif;
     color: #E5306F;
     float: left;
     font-size: 2em;
+    font-weight: 900;
     margin: 10px 0;
 }
 
@@ -74,12 +90,12 @@ p {
 }
 
 article {
-    color: #FFFFFF;
-    background-color: #17141D;
+    /* color: #FFFFFF; */
+    background-color: #FFFFFF;
     padding: 20px;
     border-radius: 5px;
     margin: 16px;
-    box-shadow: 0px 0px 10px 2px black;
+    box-shadow: 0px 0px 4px 1px rgba(144, 144, 145, 0.6);
 }
 
 .autor {
