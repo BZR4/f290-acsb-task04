@@ -128,3 +128,23 @@ article header {
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
+
+/* Acessibilidade */
+
+/* Destaque no foco  - Alterem conforme suas preferencias */
+a:hover,
+a:focus {
+    border: 2px solid white;
+} 
+
+
+/* Skip Link */
+[href="#main"] {
+    position: absolute;
+    top: 0;
+    right: 100%;
+}
+
+[href="#main"]:focus {
+    right: auto;
+}
